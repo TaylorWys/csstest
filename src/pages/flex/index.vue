@@ -1,14 +1,15 @@
-<template>
+<template xmlns="http://www.w3.org/1999/html">
   <div>
     <span>flex父容器部分属性演示</span>
+    <p>注：各属性的第一个选项即为默认值</p>
     <div class="div1">
-      <ul class="ul1" :style="styleObject">
-        <div class="ulcontain" v-for="(item,index) in [1,2,3,4,5,6,7]" :key="index">
-          <li>this is test {{item}}</li>
+      <div class="ul1" :style="styleObject">
+        <div class="licontain" v-for="(item,index) in [1,2,3,4,5,6,7]" :key="index">
+          <span>this is test {{item}}</span>
         </div>
-      </ul>
-      <div>
-        <span>父容器justify-content属性演示</span>
+      </div>
+      <div class="radio-container">
+        <span>justify-content属性：</span>
         <ul class="ul2">
           <label class="myradio" v-for="(item,index) in justifyContentList">
             <input class="radio-icon" type="radio" name="justifyContent" :value="item" v-model="justifyContentpicked"
@@ -16,10 +17,10 @@
             <span class="radio-content">{{item}}</span>
           </label>
         </ul>
-        <span>Picked: {{ justifyContentpicked }}</span>
+<!--        <span>Picked: {{ justifyContentpicked }}</span>-->
       </div>
-      <div>
-        <span>父容器align-items属性演示</span>
+      <div class="radio-container">
+        <span>align-items属性：</span>
         <ul class="ul2">
           <label class="myradio" v-for="(item,index) in alignItemsList">
             <input class="radio-icon" type="radio" name="alignItems" :value="item" v-model="alignItemspicked"
@@ -27,10 +28,10 @@
             <span class="radio-content">{{item}}</span>
           </label>
         </ul>
-        <span>Picked: {{ alignItemspicked }}</span>
+<!--        <span>Picked: {{ alignItemspicked }}</span>-->
       </div>
-      <div>
-        <span>父容器align-content属性演示</span>
+      <div class="radio-container">
+        <span>align-content属性：</span>
         <ul class="ul2">
           <label class="myradio" v-for="(item,index) in alignContentList">
             <input class="radio-icon" type="radio" name="alignContent" :value="item" v-model="alignContentpicked"
@@ -38,7 +39,7 @@
             <span class="radio-content">{{item}}</span>
           </label>
         </ul>
-        <span>Picked: {{ alignContentpicked }}</span>
+<!--        <span>Picked: {{ alignContentpicked }}</span>-->
       </div>
     </div>
   </div>

@@ -4,23 +4,24 @@
   width: 100%;
   margin: 0 auto;
 
-  .ulcontain {
-    background-color: lightblue;
-  }
-
   .ul1 {
     width: 80%;
     height: 400px;
     margin: 20px auto;
-    padding: 0px;
+    padding: 0;
     border: 1px solid;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+
+    .licontain {
+      background-color: lightblue;
+    }
+
     //.justify-content(@justifyflag);
     //justify-content: center;
-    li {
-      width: 150px;
+    span {
+      width: 300px;
       height: 50px;
       margin: 5px;
       //margin: 0 auto; // 效果与父容器justify-content: space-around一致
@@ -93,4 +94,16 @@
 
 span {
   font-size: 20px;
+}
+
+.radio-container {
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid #eeeeee;
+}
+
+p {
+  margin: 0 auto;
+  width: 80%;
+  text-align: left;
 }

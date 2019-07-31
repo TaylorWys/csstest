@@ -3,8 +3,12 @@
     <h1>{{ msg }}</h1>
     <ul>
       <li>
-        <div class="tag" @click="skip">flex-demo（父容器justify-content, align-items, align-content）</div>
+        <router-link  class="tag" to="flex">flex-demo（父容器justify-content, align-items, align-content）</router-link>
         <span>2019年7月30日</span>
+      </li>
+      <li>
+        <router-link class="tag" to="flexChild">flex-demo（子组件属性）</router-link>
+        <span>2019年7月31日</span>
       </li>
     </ul>
   </div>
@@ -52,6 +56,7 @@
     float: left;
     color: #42b983;
     font-size: 25px;
+    text-decoration: none;
   }
 
   .tag:hover {
