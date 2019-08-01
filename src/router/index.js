@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import flex from '@/pages/flex'
 import flexChild from '@/pages/flexChild'
 import flexShopDemo from '@/pages/flexShopdemo'
+import stickyDemo from '@/pages/stickyDemo'
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/flexShopDemo',
       name: 'flexShopDemo',
       component: flexShopDemo
+    },
+    {
+      path: '/stickyDemo',
+      name: 'stickyDemo',
+      component: stickyDemo
     }
   ]
 })

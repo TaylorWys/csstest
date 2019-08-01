@@ -3,8 +3,8 @@
     <div class="header">
       This is header!
     </div>
-    <div class="container">
-      <div class="goods" v-for="item in [0,1,2,3,4,5,6,7,8,9,10]">this is goods {{item}}</div>
+    <div class="content">
+      <div class="goods" v-for="item in [0,1,2,3,4,5,6,7,8,9,10]">这是一个商品div {{item}}</div>
     </div>
     <div class="footer">
       This is footer!

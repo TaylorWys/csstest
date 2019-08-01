@@ -14,6 +14,10 @@
         <router-link class="tag" to="flexShopDemo">flex头尾固定</router-link>
         <span>2019年7月31日</span>
       </li>
+      <li>
+        <router-link class="tag" to="stickyDemo">position:sticky粘性布局</router-link>
+        <span>2019年8月1日</span>
+      </li>
     </ul>
   </div>
 </template>
