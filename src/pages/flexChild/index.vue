@@ -58,8 +58,8 @@
         orderPicked: 0,
         flexGrowList: [0, 0.25, 0.5, 1],
         flexGrowPicked: 0,
-        alignSelfList:["auto","stretch", "flex-start", "flex-end", "center", "baseline"],
-        alignSelfPicked:"auto",
+        alignSelfList: ["auto", "stretch", "flex-start", "flex-end", "center", "baseline"],
+        alignSelfPicked: "auto",
         styleObject: {
           color: "blue",
           order: 0,

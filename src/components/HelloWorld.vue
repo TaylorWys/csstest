@@ -10,6 +10,10 @@
         <router-link class="tag" to="flexChild">flex-demo（子组件属性）</router-link>
         <span>2019年7月31日</span>
       </li>
+      <li>
+        <router-link class="tag" to="flexShopDemo">flex头尾固定</router-link>
+        <span>2019年7月31日</span>
+      </li>
     </ul>
   </div>
 </template>
@@ -47,7 +51,7 @@
   li {
     width: 100%;
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px 10px;
     border-bottom: 10px;
     height: 30px;
   }
