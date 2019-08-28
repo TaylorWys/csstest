@@ -18,6 +18,10 @@
         <router-link class="tag" to="stickyDemo">position:sticky粘性布局</router-link>
         <span>2019年8月1日</span>
       </li>
+      <li>
+        <router-link class="tag" to="vuexdemo">Vuex网课实践</router-link>
+        <span>2019年8月26日</span>
+      </li>
     </ul>
   </div>
 </template>
